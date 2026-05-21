@@ -15,8 +15,6 @@ An end-to-end enterprise Data Engineering project that simulates a real-world re
 - Python
 
 ## Architecture
-This project follows a modern enterprise data pipeline architecture:
-
 Raw Dataset → Kafka → Airflow → PostgreSQL Staging → Talend ETL → PySpark Transformations → Data Warehouse → Power BI
 
 ## Project Goals
@@ -25,6 +23,3 @@ Raw Dataset → Kafka → Airflow → PostgreSQL Staging → Talend ETL → PySp
 - Design a star schema warehouse
 - Simulate enterprise batch & streaming workflows
 - Generate business intelligence dashboards
-
-## Status
-Project initialization phase.
