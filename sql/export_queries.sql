@@ -3,7 +3,7 @@
 -- =========================================
 
 COPY fact_sales
-TO '/Users/azoozyaw/Desktop/enterprise-retail-data-pipeline/data/warehouse_exports/fact_sales.csv'
+TO 'YourPath/fact_sales.csv'
 DELIMITER ','
 CSV HEADER;
 
@@ -12,7 +12,7 @@ CSV HEADER;
 -- =========================================
 
 COPY dim_customer
-TO '/Users/azoozyaw/Desktop/enterprise-retail-data-pipeline/data/warehouse_exports/dim_customer.csv'
+TO 'YourPath/dim_customer.csv'
 DELIMITER ','
 CSV HEADER;
 
@@ -21,7 +21,7 @@ CSV HEADER;
 -- =========================================
 
 COPY dim_product
-TO '/Users/azoozyaw/Desktop/enterprise-retail-data-pipeline/data/warehouse_exports/dim_product.csv'
+TO 'YourPath/dim_product.csv'
 DELIMITER ','
 CSV HEADER;
 
@@ -30,7 +30,7 @@ CSV HEADER;
 -- =========================================
 
 COPY dim_country
-TO '/Users/azoozyaw/Desktop/enterprise-retail-data-pipeline/data/warehouse_exports/dim_country.csv'
+TO 'YourPath/dim_country.csv'
 DELIMITER ','
 CSV HEADER;
 
@@ -39,6 +39,6 @@ CSV HEADER;
 -- =========================================
 
 COPY dim_date
-TO '/Users/azoozyaw/Desktop/enterprise-retail-data-pipeline/data/warehouse_exports/dim_date.csv'
+TO 'YourPath/dim_date.csv'
 DELIMITER ','
 CSV HEADER;
